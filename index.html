@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+		<link rel="icon" href="LOGO-1.png" type="image/icon type">
+
+		<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<div class="static">
+		<div class="heading">
+			<h1>Learnado</h1>
+		</div>
+		<div class="meter">
+			<div class="meter-left">
+				<p>Love</p>
+			</div>
+			<div class="meter-center">
+				<div class="needle-container">
+					<div class="inner-need-cont">
+						<img src="needle.svg" alt="">
+					</div>
+				</div>
+				<div class="image-container">
+					<img src="Meter.svg" alt="Your Image">
+				</div>
+			</div>
+			<div class="meter-right">
+				<p>Meter</p>
+			</div>
+		</div>
+		<div class="improve">
+			<h2>HELP US IMPROVE!</h2>
+			<p>Hello Learnado Legends,</p>
+			<p>How was the ride with us?</p>
+		</div>
+	</div>
+	<div class="dynamic">
+		<!-- https://getform.io/f/a3ab8478-e937-4bfe-8edb-18a6b3cb414e -->
+		<form action="https://getform.io/f/a3ab8478-e937-4bfe-8edb-18a6b3cb414e" method="post" class="form">
+			<div class="container-radio">
+				<p>Rate your Learnado adventure. (1-5 no pressure)</p>
+				<div class="radio-container">
+					<div class="radio-left">Very Bad</div>
+					<div class="radio-mid">
+						<div class="line"></div>
+						<input type="radio" id="rate-one" name="rating" value="1"/>
+						<label for="rate-one" class="toggle one"></label>
+						<input type="radio" id="rate-two" name="rating" value="2"/>
+						<label for="rate-two" class="toggle two"></label>
+						<input type="radio" id="rate-three" name="rating" value="3"/>
+						<label for="rate-three" class="toggle three"></label>
+						<input type="radio" id="rate-four" name="rating" value="4"/>
+						<label for="rate-four" class="toggle four"></label>
+						<input type="radio" id="rate-five" name="rating" value="5"/>
+						<label for="rate-five" class="toggle five"></label>
+					</div>
+					<div class="radio-right">Very Good</div>
+				</div>
+			</div>
+			<div class="container-radio">
+				<p>Would you reccomend us?</p>
+				<p>(Don't worry, we won't ask for a sworn oath.)</p>
+				<div class="radio-container">
+					<div class="radio-left">Very Bad</div>
+					<div class="radio-mid">
+						<div class="line"></div>
+						<input type="radio" id="recc-one" name="reccomend" value="1"/>
+						<label for="recc-one" class="toggle one"></label>
+						<input type="radio" id="recc-two" name="reccomend" value="2"/>
+						<label for="recc-two" class="toggle two"></label>
+						<input type="radio" id="recc-three" name="reccomend" value="3"/>
+						<label for="recc-three" class="toggle three"></label>
+						<input type="radio" id="recc-four" name="reccomend" value="4"/>
+						<label for="recc-four" class="toggle four"></label>
+						<input type="radio" id="recc-five" name="reccomend" value="5"/>
+						<label for="recc-five" class="toggle five"></label>
+					</div>
+					<div class="radio-right">Very Good</div>
+				</div>
+			</div>
+			<div class="container-radio">
+				<p>Thinking of a sequel? Yay or Nay? </p>
+				<div class="radio-container">
+					<div class="radio-left">Very Bad</div>
+					<div class="radio-mid">
+						<div class="line"></div>
+						<input type="radio" id="yn-one" name="YayNay" value="1"/>
+						<label for="yn-one" class="toggle one"></label>
+						<input type="radio" id="yn-two" name="YayNay" value="2"/>
+						<label for="yn-two" class="toggle two"></label>
+						<input type="radio" id="yn-three" name="YayNay" value="3"/>
+						<label for="yn-three" class="toggle three"></label>
+						<input type="radio" id="yn-four" name="YayNay" value="4"/>
+						<label for="yn-four" class="toggle four"></label>
+						<input type="radio" id="yn-five" name="YayNay" value="5"/>
+						<label for="yn-five" class="toggle five"></label>
+					</div>
+					<div class="radio-right">Very Good</div>
+				</div>
+			</div>
+			<div class="container-text">
+				<label for="scores" class=""><p>Uni scuccess: Spill the beans on your scores!</p></label>
+				<input type="text" name="scores" id="scores" class="text" >
+			</div>
+			<div class="container-text">
+				<label for="review" class=""><p>Got a secret recepie for improvement? Let us know</p></label>			
+				<input type="text" name="feedback" id="review" class="text" >
+			</div>
+			<div class="container-text">			
+				<label for="s-name" class=""><p>Your awesome name? (Yes, your superhero name counts)</p></label>
+				<input type="text" name="Student Name" id="s-name" class="text" >
+			</div>
+			<div class="container-text">		
+				<label for="institute" class=""><p>University you rock at!</p></label>	
+				<input type="text" name="Institute" id="institute" class="text" required>
+			</div>
+			<div class="container-text">			
+				<label for="field" class=""><p>Field you're conquering</p></label>
+				<input type="text" name="Field" id="field" class="text" required>
+			</div>
+			<div class="feedback-submit">
+				<div></div>
+				<div class="feedback">
+					<p>Remember, your feedback is our fuel!&mdash;make it spicy!</p>
+					<p>Cheers to Learning & Laughter,</p>
+					<p>The Learnado Crew</p>
+				</div>
+				<div class="submit">
+					<button type="submit" class="sub"></button>
+				</div>
+			</div>
+		</form>
+	</div>
+
+	<!-- <div class="needle-container">
+		<div class="inner-need-cont">
+			<img src="needle.svg" alt="">
+		</div>
+	</div>
+	<div class="needle-container">
+		<div class="inner-need-cont">
+			<img src="needle.svg" alt="">
+		</div>
+	</div> -->
+	<div style="font-size: 0.3em;"><a target="_blank" href="https://icons8.com/icon/63262/checkmark">Tick</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></div>
+	<script>
+		function buttonSubmit() {
+			form = document.querySelector(".form")
+		}
+	</script>
+</body>
+</html>

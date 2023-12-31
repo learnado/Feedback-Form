@@ -1,0 +1,7 @@
+<svg width="14" height="74" viewBox="0 0 14 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="needle">
+<path id="needle-top" d="M7 0L13.0622 54.8784H0.937822L7 0Z" fill="black"/>
+<path id="needle-bottom" d="M1 54.6814C1 56.6108 1.63214 58.4611 2.75736 59.8254C3.88258 61.1896 5.4087 61.9561 7 61.9561C8.5913 61.9561 10.1174 61.1896 11.2426 59.8254C12.3679 58.4611 13 56.6108 13 54.6814L7 54.6814L1 54.6814Z" fill="black"/>
+<circle id="needle-pivot" cx="7.12817" cy="54.2045" r="4.5" transform="rotate(1.72257 7.12817 54.2045)" fill="#FFFCFC"/>
+</g>
+</svg>
